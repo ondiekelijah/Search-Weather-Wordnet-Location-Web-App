@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title%} {{ title }} {% endblock %}
+
+{% block content%}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <div class="text-center mt-4 mb-4">
+                    <h3> {{label}} </h3>
+                    <div class="w3-container">
+                        <form action="{{ request.path }}" method="POST">
+                            {{ form.body(class_="w3-input w3-border",placeholder="Type search here")}}
+                            <button class="w3-btn w3-blue w3-border" type="submit">Search</button>
+                        </form>
+                        <div>
+                            {% with messages = get_flashed_messages(with_categories=true) %}
+                            <!-- Categories: success (green), info (blue), warning (yellow), danger (red) -->
+                            {% if messages %}
+                            {% for category, message in messages %}
+                            <div class="alert alert-{{ category }} alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <!-- <strong>Title</strong> --> {{ message }}
+                            </div>
+                            {% endfor %}
+                            {% endif %}
+                            {% endwith %}
+                        </div>
+                        <div>
+                            <h3>Recent Answers</h3>
+                            <div style="overflow-x:auto;">
+                                <table class="w3-table w3-hoverable w3-bordered w3-striped w3-border">
+                                    <thead>
+                                        <tr class="w3-light-grey">
+                                            <th>Question</th>
+                                            <th>Category</th>
+                                            <th>Answer</th>
+                                        </tr>
+                                    </thead>
+                                    {% for recent in recent%}
+                                    <tr>
+                                        <td class="recent-answers">{{ recent.question }}</td>
+                                        <td class="recent-answers">{{ recent.category }}</td>
+                                        <td class="recent-answers"><a
+                                                href="{{ recent.answer }}">{{ recent.answer }}</span></a> </td>
+                                    </tr>
+                                    {% endfor%}
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+{% endblock%}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title%} {{ title }} {% endblock %}
+
+{% block content%}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3> {{label}} </h3>
+            <div class="w3-container">
+                <form action="{{ request.path }}" method="POST">
+                    {{ form.address(class_="w3-input w3-border",placeholder="Type search here")}}
+                    <button class="w3-btn w3-blue w3-border" type="submit">Search</button>
+                </form>
+                <div class="location-address">
+                    <p><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Location address: <span>{{ location }}</span>  </p>
+                    <p><i class="fa fa-street-view mr-2" aria-hidden="true"></i>Street address, street name: <span>{{ location.address }}</span> </p>
+                    <p><i class="fa fa-location-arrow mr-2" aria-hidden="true"></i>Longitude: <span>{{ location.longitude }}</span> </p>
+                    <p><i class="fa fa-location-arrow mr-2" aria-hidden="true"></i>Latitude: <span>{{ location.latitude }}</span> </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+
+{% endblock%}

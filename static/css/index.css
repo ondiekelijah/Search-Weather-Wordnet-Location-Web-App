@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap'); 
+
+body{
+
+    background-image: url(/static/images/wallhaven-v9mg65_2560x1080.png);
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h6{
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+  padding: 2rem;
+}
+.action-buttons{
+  margin-top:1rem;
+  margin-bottom:20%;
+}
+#option{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    width: 20%;
+    height: 50px;
+    color: whitesmoke;
+    border-radius: 0;
+    background:#155cd6;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  #option:hover{
+    background:#2a70e9;
+    border: none;
+  }
+  #option-link:hover{
+  text-decoration: none;
+  color: whitesmoke;
+  
+  }
+  .w3-bar.w3-border.w3-center{
+    background-color: #155cd6;
+    margin-top: -1px;
+    padding: 0.5rem;
+}
+.w3-bar.w3-border.w3-center a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+/* search bar */
+.w3-btn.w3-blue.w3-border{
+  position:absolute;
+  top:3px;
+  right:20px;
+  border-radius: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+.w3-bar-block{
+  font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.w3-container{
+  position: relative;
+}
+.svg-images{
+  width: 40%;
+  height: 30%;
+}
+/* input */
+#body,#place,#word,#address{
+  padding: 12px;
+  border-radius: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+.alert{
+  margin:10px;
+  font-family: 'Raleway', sans-serif;
+}
+.recent-answers{
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+}
+.recent-answers:hover{
+  color: #2a70e9;
+}
+.weather-wrapper{
+  text-align: center;
+}
+.weather-icons{
+  font-size: 30px;
+}
+.weather-status-labels{
+  font-family: 'Raleway', sans-serif;
+}
+.weather-status{
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+.wordnet{
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.wordnet p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+
+}
+.wordnet-results{
+  text-align: left;
+}
+.location-address{
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem;
+}
+.location-address span{
+  color: red;
+}
+/* search bar */
+.footer{
+    clear: both;
+    position: relative;
+    bottom: 0;
+}
+.footer-text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+/* location finder */
+#map {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  position:absolute;
+  z-index:1;
+  top:0; bottom:0;
+}
+.ol-control button { 
+  background-color: rgba(40, 40, 40, 0.8) !important;
+}
+.ol-control button:hover { 
+  background-color: rgba(40, 40, 40, 1) !important;
+}
+}
+@media screen and  (max-width: 768px) {
+    #option{ 
+        width: 80%;
+        margin-top: 3rem;
+        }
+}

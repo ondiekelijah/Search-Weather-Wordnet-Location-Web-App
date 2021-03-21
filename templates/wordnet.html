@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title%} {{ title }} {% endblock %}
+
+{% block content%}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <div class="text-center">
+                    <h6>WORDNET API | SELECT AN OPTION</h6>
+                    <img src="../static/images/undraw_voice_interface_eckp.svg" alt="search" class="svg-images">
+                    <div class="action-buttons">
+                        <button class="btn" id="option"> <a href="{{url_for('definitions')}}" id="option-link">Word
+                                Definition</a>
+                        </button>
+                        <button class="btn" id="option"> <a href="{{url_for('synonyms_antonyms')}}" id="option-link">Ant & Syn</a>
+                        </button>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+{% endblock%}

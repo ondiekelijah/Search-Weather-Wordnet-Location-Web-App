@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title%} {{ title }} {% endblock %}
+
+{% block content%}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <div class="text-center">
+                    <h6>Please Select an Option to Proceed</h6>
+                    <img src="../static/images/undraw_search_engines_nn9e.svg" alt="search" class="svg-images">
+                    <div class="action-buttons">
+                        <button class="btn" id="option"> <a href="{{url_for('datasci')}}" id="option-link">Data
+                                Science</a>
+                        </button>
+                        <button class="btn" id="option"> <a href="{{url_for('webdev')}}" id="option-link">Web
+                                Development</a>
+                        </button>
+                        <button class="btn" id="option"> <a href="{{url_for('cybersec')}}" id="option-link">Cyber
+                                Security</a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+{% endblock%}
