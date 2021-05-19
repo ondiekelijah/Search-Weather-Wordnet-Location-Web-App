@@ -49,7 +49,7 @@ $ chmod 777 run
 $ ./run
 ```
 # Preview
-![Home](https://github.com/Dev-Elie/Search-Weather-Wordnet-Location-Web-App/settings/og-template
+![Home](https://github.com/Dev-Elie/Portfolio/blob/main/images/projects/slww.png
  "Q & A Page")
 
 
