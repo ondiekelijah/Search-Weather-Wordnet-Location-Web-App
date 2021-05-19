@@ -1,4 +1,7 @@
 # Search,Weather,Wordnet and a Location Finder-Web-App
+[![GitHub issues](https://img.shields.io/github/issues/Dev-Elie/Search-Weather-Wordnet-Location-Web-App)](https://github.com/Dev-Elie/Search-Weather-Wordnet-Location-Web-App/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Dev-Elie/Search-Weather-Wordnet-Location-Web-App)](https://github.com/Dev-Elie/Search-Weather-Wordnet-Location-Web-App/network)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FDev-Elie%2FSearch-Weather-Wordnet-Location-Web-App)
 
 # Description
 A all in one Search application,Weather finder,Wordnet Synonym/Antonym App and a Location finder application. Implemented using python Flask and MySQL. It consists of a 
@@ -52,4 +55,5 @@ $ ./run
 ![Home](https://github.com/Dev-Elie/Portfolio/blob/main/images/projects/slww.png
  "Q & A Page")
 
-
+## Likeed this project ? Feel free to tweet about it 
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FDev-Elie%2FSearch-Weather-Wordnet-Location-Web-App)
