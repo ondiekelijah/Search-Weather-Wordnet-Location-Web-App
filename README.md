@@ -55,5 +55,5 @@ $ ./run
 ![Home](https://github.com/Dev-Elie/Portfolio/blob/main/images/projects/slww.png
  "Q & A Page")
 
-## Likeed this project ? Feel free to tweet about it 
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FDev-Elie%2FSearch-Weather-Wordnet-Location-Web-App)
+Liked this project ? 
+Feel free to tweet about it [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FDev-Elie%2FSearch-Weather-Wordnet-Location-Web-App)
